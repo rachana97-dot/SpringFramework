@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<!-- bean definitions here -->
+	<!-- This Object will created by Spring container using uniq id StdID -->
+	<bean
+		class="com.SpringFramework1.SpringFrameworkProg1.beans.student"
+		id="stdId">
+		<property name="id" value="1" />
+		<property name="name" value="Rachana" />
+		<property name="rollno" value="101" />
+
+	</bean>
+	
+	
+	<bean
+		class="com.SpringFramework1.SpringFrameworkProg1.beans.student"
+		id="stdId2">
+		<property name="id" value="2" />
+		<property name="name" value="Prajakta" />
+		<property name="rollno" value="102" />
+
+	</bean>
+</beans>
